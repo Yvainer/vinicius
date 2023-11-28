@@ -1,0 +1,12 @@
+nome = input('Qual seu nome completo?')
+nomemaiusculo = nome.upper()
+nomeminusculo = nome.lower()
+quantasletras = nome.strip()
+primeironome = nome.split()
+
+print(nomemaiusculo)
+print(nomeminusculo)
+print(len(''.join(quantasletras)))
+print(len(primeironome[0]))
+#print(nomejunto.count())
+#print(letrasprimeiro)
